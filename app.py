@@ -24,6 +24,6 @@ def marks():
 
     return render_template('index.html',your_caption=result_dic['caption'],user_image=result_dic['image'])
 
-if __name__ == "__main__":
-    # app.debug = True
-    app.run(debug=True) #debug=true means if we change the file it will directly reflect in the browser
+# if __name__ == "__main__":
+#     # app.debug = True
+#     app.run(debug=True) #debug=true means if we change the file it will directly reflect in the browser
