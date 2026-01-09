@@ -1,4 +1,4 @@
-from flask import Flask,render_template,redirect,request
+from flask import Flask,render_template,request
 import Caption_it
 
 # if __name__ == "__main__"
